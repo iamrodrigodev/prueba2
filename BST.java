@@ -184,7 +184,7 @@ public class BST <T extends Comparable<T>> implements Iterable<T>
    {
       preOrderHelper(root);
    }
-   private void preOrderHelper(Node r)
+   private void preOrderHelper(Node<T> r)
    {
       if (r != null)
       {
@@ -198,7 +198,7 @@ public class BST <T extends Comparable<T>> implements Iterable<T>
    {
       inOrderHelper(root);
    }
-   private void inOrderHelper(Node r)
+   private void inOrderHelper(Node<T> r)
    {
       if (r != null)
       {
